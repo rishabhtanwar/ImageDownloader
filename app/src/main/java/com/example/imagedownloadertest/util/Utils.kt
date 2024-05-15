@@ -1,15 +1,13 @@
-package com.example.imagedownloadertest.image_loader
+package com.example.imagedownloadertest.util
 
-import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.Bitmap.CompressFormat
 import android.graphics.BitmapFactory
-import android.os.Environment
 import android.os.Process
+import com.example.imagedownloadertest.image_loader.ImageLoader
 import java.io.BufferedInputStream
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
-import java.io.File
 import java.net.URL
 import java.util.concurrent.ThreadFactory
 

@@ -2,19 +2,13 @@ package com.example.imagedownloadertest.image_loader
 
 import android.content.Context
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.os.Handler
 import android.util.Log
 import android.util.LruCache
 import android.widget.ImageView
 import com.example.imagedownloadertest.R
-import java.io.File
-import java.io.FileInputStream
-import java.io.FileOutputStream
-import java.text.SimpleDateFormat
+import com.example.imagedownloadertest.util.Utils
 import java.util.Collections.synchronizedMap
-import java.util.Date
-import java.util.Locale
 import java.util.WeakHashMap
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
